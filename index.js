@@ -18,7 +18,7 @@ app.get('/' ,(req,res)=>{
 app.get('/comments' ,(req,res)=>{
     res.status(200).send ("welcome To Backend")
   })
-  app.use('/comments',postRoute);
+  app.use('/posts',postRoute);
   
   app.use('/albums',albumsRoute);
 
